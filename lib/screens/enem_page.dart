@@ -8,7 +8,7 @@ class EnemPage extends StatefulWidget {
 	State<EnemPage> createState() => _EnemPageState();
 }
 class _EnemPageState extends State<EnemPage> {
-	final _service = EnemServices();
+	final _service = EnemService();
 	late Future<List<QuestaoEnem>> _busca;
 	@override
 	void initState() {
